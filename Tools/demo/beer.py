@@ -7,7 +7,7 @@ example.
 By Guido van Rossum, demystified after a version by Fredrik Lundh.
 """
 
-import sys
+import sys   #import sys 引入 python 标准库中的 sys.py 模块；这是引入某一模块的方法。
 
 n = 100
 if sys.argv[1:]:
